@@ -161,3 +161,16 @@ To see your transformed data visually, do the following:
 ### Appendix A - Conceptual Map
 
 ![map.jpg](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/map.jpg)
+
+### Appendix B - Source Data Elements Mappigns
+
+| Element (source data) | Target Class |
+|---|---|
+|`/root/painting`|`crm:E22_Human-Made_Object`|
+|`/root/painting/title`|`crm:E35_Title`|
+|`/root/painting/painter_id`|`crm:E21_Person`|
+|`/root/painting/creation_date`|`crm:E52_Time-Span`|
+|`/root/painter`|`crm:E21_Person`|
+|`/root/painter/id`|`crm:E42_Identifier`|
+|`/root/painter/ulan`|`crm:E42_Identifier`|
+
