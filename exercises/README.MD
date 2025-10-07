@@ -21,3 +21,11 @@ Before starting, please ensure you have:
 
 - Basic understanding of **ontologies** and **RDF**  
 - A web browser (for using the **3M mapping editor**)  
+
+
+---
+
+## 📂 Repository Structure
+
+- Exercise 1 (paintings collection)
+- Exercise 2 (archaeological excavations)
