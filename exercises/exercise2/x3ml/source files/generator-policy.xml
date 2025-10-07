@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generator_policy>
+   <generator name="SimpleLabel" type="any">
+      <pattern>{label}</pattern>
+   </generator>
+   <generator name="CompositeLabel" type="any">
+      <pattern>{term1} {term2}</pattern>
+   </generator>
+   <generator name="LocalTermURI" prefix="pref" type="any">
+      <pattern>{hierarchy}/{term}</pattern>
+   </generator>
+   <generator name="TypedLiteralGen" type="any">
+      <custom generatorClass="gr.forth.TypedLiteralGenerator">
+         <set-arg name="text"/>
+      </custom>
+   </generator>
+   <generator name="URIorUUID" type="any">
+      <custom generatorClass="gr.forth.URIorUUID">
+         <set-arg name="text"/>
+      </custom>
+   </generator>
+</generator_policy>

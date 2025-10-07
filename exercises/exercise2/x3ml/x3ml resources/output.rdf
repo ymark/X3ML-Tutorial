@@ -1,0 +1,110 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ulan="http://vocab.getty.edu/page/ulan/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:pref="http://www.example.com/resource/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E22_Human-Made_Object rdf:about="http://www.example.com/resource/painting/p-1">
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:8f7a09fd-8768-41e2-ba9e-f439239da59a">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:878756b6-d715-42c7-9219-80966a35fe53">
+            <crm:P82_at_some_time_within>1889</crm:P82_at_some_time_within>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by>
+          <crm:E21_Person rdf:about="http://www.example.com/resource/painter/a-1">
+            <crm:P1_is_identified_by>
+              <crm:E42_Identifier rdf:about="http://vocab.getty.edu/page/ulan/500115588">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://www.example.com/resource/identifier_type/ulan">
+                    <rdfs:label>ULAN identifier</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+              </crm:E42_Identifier>
+            </crm:P1_is_identified_by>
+            <crm:P1_is_identified_by>
+              <crm:E42_Identifier rdf:about="http://www.example.com/resource/identifier/a-1">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://www.example.com/resource/identifier_type/local">
+                    <rdfs:label>local identifier</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <rdfs:label>a-1</rdfs:label>
+              </crm:E42_Identifier>
+            </crm:P1_is_identified_by>
+            <rdfs:label>Vincent Van Gogh</rdfs:label>
+          </crm:E21_Person>
+        </crm:P14_carried_out_by>
+        <rdfs:label>Creation of painting with title: Self-Portrait as a Painter</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P102_has_title>
+      <crm:E35_Title rdf:about="http://www.example.com/resource/title/Self-Portrait%20as%20a%20Painter">
+        <rdfs:label>Self-Portrait as a Painter</rdfs:label>
+      </crm:E35_Title>
+    </crm:P102_has_title>
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="http://www.example.com/resource/object_type/painting"/>
+    </crm:P2_has_type>
+    <rdfs:label>Painting with title: Self-Portrait as a Painter</rdfs:label>
+  </crm:E22_Human-Made_Object>
+  <crm:E22_Human-Made_Object rdf:about="http://www.example.com/resource/painting/p-2">
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:36c5b3cb-ea33-47a1-a8cf-0dc8684d2a34">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:56937f40-ae12-41ad-99e1-ed638520135f">
+            <crm:P82_at_some_time_within>1889</crm:P82_at_some_time_within>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by rdf:resource="http://www.example.com/resource/painter/a-1"/>
+        <rdfs:label>Creation of painting with title: The Starry Night</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P102_has_title>
+      <crm:E35_Title rdf:about="http://www.example.com/resource/title/The%20Starry%20Night">
+        <rdfs:label>The Starry Night</rdfs:label>
+      </crm:E35_Title>
+    </crm:P102_has_title>
+    <crm:P2_has_type rdf:resource="http://www.example.com/resource/object_type/painting"/>
+    <rdfs:label>Painting with title: The Starry Night</rdfs:label>
+  </crm:E22_Human-Made_Object>
+  <crm:E22_Human-Made_Object rdf:about="http://www.example.com/resource/painting/p-3">
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:88f61985-5b20-4b06-bb8d-ace8a2e214d7">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="urn:uuid:f51a6361-d2ea-4e1a-b7ac-de4279e414ba">
+            <crm:P82_at_some_time_within>1874</crm:P82_at_some_time_within>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by>
+          <crm:E21_Person rdf:about="http://www.example.com/resource/painter/a-2">
+            <crm:P1_is_identified_by>
+              <crm:E42_Identifier rdf:about="http://vocab.getty.edu/page/ulan/500115194">
+                <crm:P2_has_type rdf:resource="http://www.example.com/resource/identifier_type/ulan"/>
+              </crm:E42_Identifier>
+            </crm:P1_is_identified_by>
+            <crm:P1_is_identified_by>
+              <crm:E42_Identifier rdf:about="http://www.example.com/resource/identifier/a-2">
+                <crm:P2_has_type rdf:resource="http://www.example.com/resource/identifier_type/local"/>
+                <rdfs:label>a-2</rdfs:label>
+              </crm:E42_Identifier>
+            </crm:P1_is_identified_by>
+            <rdfs:label>Edgar Degas</rdfs:label>
+          </crm:E21_Person>
+        </crm:P14_carried_out_by>
+        <rdfs:label>Creation of painting with title: The Ballet Class</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P102_has_title>
+      <crm:E35_Title rdf:about="http://www.example.com/resource/title/The%20Ballet%20Class">
+        <rdfs:label>The Ballet Class</rdfs:label>
+      </crm:E35_Title>
+    </crm:P102_has_title>
+    <crm:P2_has_type rdf:resource="http://www.example.com/resource/object_type/painting"/>
+    <rdfs:label>Painting with title: The Ballet Class</rdfs:label>
+  </crm:E22_Human-Made_Object>
+</rdf:RDF>

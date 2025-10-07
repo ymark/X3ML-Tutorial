@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ExcavationDataset>
+	<Excavation>
+		<ExcavationID>EXC001</ExcavationID>
+		<ExcavationName>Delphi Sanctuary Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC001</PlaceID>
+			<Name>Delphi Sanctuary</Name>
+			<Coordinates>38.4828, 22.5010</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-06-27</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT001</ActorID>
+			<Name>Ioannis Papadimitriou</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ001</ObjectID>
+			<Name>Iron Spearhead</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Delphi Sanctuary Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC001</DocumentID>
+			<Title>Delphi Sanctuary Excavation Report</Title>
+			<Author>Ioannis Papadimitriou</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC002</ExcavationID>
+		<ExcavationName>Knossos Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC002</PlaceID>
+			<Name>Knossos</Name>
+			<Coordinates>35.2986, 25.1590</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-04-10</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT002</ActorID>
+			<Name>Christos Tsountas</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ002</ObjectID>
+			<Name>Ivory Comb</Name>
+			<Type>Vessel</Type>
+			<CurrentLocation>Knossos Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC002</DocumentID>
+			<Title>Knossos Excavation Report</Title>
+			<Author>Christos Tsountas</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC003</ExcavationID>
+		<ExcavationName>Olympia Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC003</PlaceID>
+			<Name>Olympia</Name>
+			<Coordinates>37.6381, 21.6307</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-02-15</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT003</ActorID>
+			<Name>Ernst Curtius</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ003</ObjectID>
+			<Name>Marble Kouros</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Olympia Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC003</DocumentID>
+			<Title>Olympia Excavation Report</Title>
+			<Author>Ernst Curtius</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC004</ExcavationID>
+		<ExcavationName>Vergina Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC004</PlaceID>
+			<Name>Vergina</Name>
+			<Coordinates>40.4842, 22.3203</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-09-15</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT004</ActorID>
+			<Name>George Mylonas</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ004</ObjectID>
+			<Name>Funerary Stele</Name>
+			<Type>Statue</Type>
+			<CurrentLocation>Vergina Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC004</DocumentID>
+			<Title>Vergina Excavation Report</Title>
+			<Author>George Mylonas</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC005</ExcavationID>
+		<ExcavationName>Mycenae Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC005</PlaceID>
+			<Name>Mycenae</Name>
+			<Coordinates>37.7308, 22.7542</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-06-18</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT005</ActorID>
+			<Name>Manolis Andronikos</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ005</ObjectID>
+			<Name>Decorated Vase</Name>
+			<Type>Weapon</Type>
+			<CurrentLocation>Mycenae Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC005</DocumentID>
+			<Title>Mycenae Excavation Report</Title>
+			<Author>Manolis Andronikos</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC006</ExcavationID>
+		<ExcavationName>Corinth Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC006</PlaceID>
+			<Name>Corinth</Name>
+			<Coordinates>37.9056, 22.8786</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-04-07</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT006</ActorID>
+			<Name>George Mylonas</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ006</ObjectID>
+			<Name>Wall Fresco</Name>
+			<Type>Tablet</Type>
+			<CurrentLocation>Corinth Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC006</DocumentID>
+			<Title>Corinth Excavation Report</Title>
+			<Author>George Mylonas</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC007</ExcavationID>
+		<ExcavationName>Epidauros Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC007</PlaceID>
+			<Name>Epidauros</Name>
+			<Coordinates>37.6370, 23.1241</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-02-20</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT007</ActorID>
+			<Name>Ernst Curtius</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ007</ObjectID>
+			<Name>Wall Fresco</Name>
+			<Type>Statue</Type>
+			<CurrentLocation>Epidauros Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC007</DocumentID>
+			<Title>Epidauros Excavation Report</Title>
+			<Author>Ernst Curtius</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC008</ExcavationID>
+		<ExcavationName>Dion Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC008</PlaceID>
+			<Name>Dion</Name>
+			<Coordinates>40.1741, 22.4873</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-11-26</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT008</ActorID>
+			<Name>Theophile Homolle</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ008</ObjectID>
+			<Name>Engraved Ring</Name>
+			<Type>Statue</Type>
+			<CurrentLocation>Dion Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC008</DocumentID>
+			<Title>Dion Excavation Report</Title>
+			<Author>Theophile Homolle</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC009</ExcavationID>
+		<ExcavationName>Delos Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC009</PlaceID>
+			<Name>Delos</Name>
+			<Coordinates>37.3963, 25.2714</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-05-09</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT009</ActorID>
+			<Name>Manolis Andronikos</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ009</ObjectID>
+			<Name>Stone Anchor</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Delos Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC009</DocumentID>
+			<Title>Delos Excavation Report</Title>
+			<Author>Manolis Andronikos</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC010</ExcavationID>
+		<ExcavationName>Nemea Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC010</PlaceID>
+			<Name>Nemea</Name>
+			<Coordinates>37.8058, 22.6622</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-06-01</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT010</ActorID>
+			<Name>Ernst Curtius</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ010</ObjectID>
+			<Name>Decorated Vase</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Nemea Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC010</DocumentID>
+			<Title>Nemea Excavation Report</Title>
+			<Author>Ernst Curtius</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC011</ExcavationID>
+		<ExcavationName>Thebes Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC011</PlaceID>
+			<Name>Thebes</Name>
+			<Coordinates>38.3250, 23.3189</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-08-27</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT011</ActorID>
+			<Name>Carl Blegen</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ011</ObjectID>
+			<Name>Bronze Helmet</Name>
+			<Type>Statue</Type>
+			<CurrentLocation>Thebes Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC011</DocumentID>
+			<Title>Thebes Excavation Report</Title>
+			<Author>Carl Blegen</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC012</ExcavationID>
+		<ExcavationName>Argos Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC012</PlaceID>
+			<Name>Argos</Name>
+			<Coordinates>37.6333, 22.7333</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-05-19</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT012</ActorID>
+			<Name>Christos Tsountas</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ012</ObjectID>
+			<Name>Wall Fresco</Name>
+			<Type>Vessel</Type>
+			<CurrentLocation>Argos Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC012</DocumentID>
+			<Title>Argos Excavation Report</Title>
+			<Author>Christos Tsountas</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC013</ExcavationID>
+		<ExcavationName>Lefkandi Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC013</PlaceID>
+			<Name>Lefkandi</Name>
+			<Coordinates>38.3944, 23.7956</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-06-03</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT013</ActorID>
+			<Name>Panagiotis Kavvadias</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ013</ObjectID>
+			<Name>Engraved Ring</Name>
+			<Type>Vessel</Type>
+			<CurrentLocation>Lefkandi Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC013</DocumentID>
+			<Title>Lefkandi Excavation Report</Title>
+			<Author>Panagiotis Kavvadias</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC014</ExcavationID>
+		<ExcavationName>Sounion Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC014</PlaceID>
+			<Name>Sounion</Name>
+			<Coordinates>37.6500, 24.0167</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-07-20</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT014</ActorID>
+			<Name>Carl Blegen</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ014</ObjectID>
+			<Name>Ceramic Figurine</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Sounion Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC014</DocumentID>
+			<Title>Sounion Excavation Report</Title>
+			<Author>Carl Blegen</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC015</ExcavationID>
+		<ExcavationName>Pella Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC015</PlaceID>
+			<Name>Pella</Name>
+			<Coordinates>40.7589, 22.5247</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-07-13</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT015</ActorID>
+			<Name>Panagiotis Kavvadias</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ015</ObjectID>
+			<Name>Bronze Sword</Name>
+			<Type>Tablet</Type>
+			<CurrentLocation>Pella Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC015</DocumentID>
+			<Title>Pella Excavation Report</Title>
+			<Author>Panagiotis Kavvadias</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC016</ExcavationID>
+		<ExcavationName>Sparta Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC016</PlaceID>
+			<Name>Sparta</Name>
+			<Coordinates>37.0755, 22.4297</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-04-09</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT016</ActorID>
+			<Name>Nanno Marinatos</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ016</ObjectID>
+			<Name>Gold Diadem</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Sparta Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC016</DocumentID>
+			<Title>Sparta Excavation Report</Title>
+			<Author>Nanno Marinatos</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC017</ExcavationID>
+		<ExcavationName>Eleusis Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC017</PlaceID>
+			<Name>Eleusis</Name>
+			<Coordinates>38.0419, 23.5423</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-02-28</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT017</ActorID>
+			<Name>Heinrich Schliemann</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ017</ObjectID>
+			<Name>Wall Fresco</Name>
+			<Type>Vessel</Type>
+			<CurrentLocation>Eleusis Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC017</DocumentID>
+			<Title>Eleusis Excavation Report</Title>
+			<Author>Heinrich Schliemann</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC018</ExcavationID>
+		<ExcavationName>Aegina Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC018</PlaceID>
+			<Name>Aegina</Name>
+			<Coordinates>37.7461, 23.4270</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-03-02</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT018</ActorID>
+			<Name>Carl Blegen</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ018</ObjectID>
+			<Name>Clay Tablet</Name>
+			<Type>Tablet</Type>
+			<CurrentLocation>Aegina Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC018</DocumentID>
+			<Title>Aegina Excavation Report</Title>
+			<Author>Carl Blegen</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC019</ExcavationID>
+		<ExcavationName>Akrotiri Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC019</PlaceID>
+			<Name>Akrotiri</Name>
+			<Coordinates>36.3586, 25.4036</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-09-13</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT019</ActorID>
+			<Name>Heinrich Schliemann</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ019</ObjectID>
+			<Name>Gold Diadem</Name>
+			<Type>Tablet</Type>
+			<CurrentLocation>Akrotiri Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC019</DocumentID>
+			<Title>Akrotiri Excavation Report</Title>
+			<Author>Heinrich Schliemann</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+	<Excavation>
+		<ExcavationID>EXC020</ExcavationID>
+		<ExcavationName>Dodona Excavation</ExcavationName>
+		<ExcavationSite>
+			<PlaceID>PLC020</PlaceID>
+			<Name>Dodona</Name>
+			<Coordinates>39.5467, 20.7844</Coordinates>
+		</ExcavationSite>
+		<StartDate>1850-01-01</StartDate>
+		<EndDate>1850-03-06</EndDate>
+		<CarriedOutBy>
+			<ActorID>ACT020</ActorID>
+			<Name>Spyridon Marinatos</Name>
+			<Role>Lead Archaeologist</Role>
+		</CarriedOutBy>
+		<ExcavatedObject>
+			<ObjectID>OBJ020</ObjectID>
+			<Name>Funerary Stele</Name>
+			<Type>Jewelry</Type>
+			<CurrentLocation>Dodona Museum</CurrentLocation>
+		</ExcavatedObject>
+		<ExcavationReport>
+			<DocumentID>DOC020</DocumentID>
+			<Title>Dodona Excavation Report</Title>
+			<Author>Spyridon Marinatos</Author>
+			<Year>1850</Year>
+		</ExcavationReport>
+	</Excavation>
+</ExcavationDataset>
