@@ -135,3 +135,25 @@ To define them, do the following:
 
 Click 'Save Label Generator' and close the popup window with the generators. This label generator, will add as label for all the instances of the class 'E22_Human-Made_Object',
 the textual contents of the corresponding element with name title. So practically, the instance with URI http://www.example.com/resource/painting/p-1 will have as rdfs:label `Painting with title: Self-Portrait as a Painter`.  
+
+### Step6. Transform Data
+
+While defining your URI and label generators, you can also transform the provided source data and see the results in different serializations. 
+To do that you have to click the button 'Produce RDF', found at the bottom of your project editor. 
+This will transform your data according to your schema mappings and the generators that are defined so far. 
+You can also change the output format by selecting alternative serializations (i.e. Turtle, N-Triple, TriG). 
+
+![3m-7.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-7.png)
+
+### Step7. Visualize transformed data 
+
+You can also see the transformed data visually, using RDF Visualizer, a tool that is embedded in 3M Editor, and provides features for exploring RDF datasets. 
+To see your transformed data visually, do the following:  
+
+1. Click on the button 'View in the RDF Visualizer', found at the bottom of your project screen 
+2. Pick a class of interest (select the instances of which class would you like to visualize).  Select 'E22_Human-Made_Object` (the actual URI is `http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object`) 
+3. Select one of the instances that appear (all of them are instances of the selected class)
+4. Click 'Open in RDF Visualizer'
+5. See the transformed data and browse accordingly 
+
+![3m-8.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-8.png)
