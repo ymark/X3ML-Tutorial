@@ -70,3 +70,24 @@ the target schemata as you type.
 In the end, the domain part of your first mapping should like the following image.
 
 ![3m-3.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-3.png)
+
+### Step3.2. Define the link of the schema mapping
+
+Here we will demonstrate the definition of a first link; more specifically, we will show visually how to specify that
+`title` elements from the source data, will be mapped as instances of the
+class ```E35_Title``` from CIDOC CRM. 
+Since we also want to associate this instance with its corresponding painting (which is already defined in the domain part),
+we have to specify how these two instances are connected.
+According to the conceptual map (that is given in Appendix A), these instances are connected using the property ```P102_has_title``` from CIDOC CRM.
+To define the mapping for this link, do the following: 
+1. Click on ‘Add New Link’ button
+2. Click on ‘Source Relation’ found under Link #1 (of mapping #1) 
+3. In the text field with name ‘Source Relation’ start typing the name of the element we want to map (i.e. `title`). You will notice that the source analyzer already provide the actual XPATH of those elements from the source data, as you type. 
+4. Make sure that the desired element name (i.e. `title`), appears both under ‘Source Relation’ and ‘Source Node’ 
+5. In the text field with name ‘Target Relation’ start typing the name of the relation we want to use from the target ontologies (i.e. `P102_has_title`) 
+6. In the text field with name ‘Target Entity’ start typing the name of the class we want to use from the target ontologies (i.e. `E35_Title`) 
+
+In the end the first link of the mapping should look like the following
+
+![3m-4.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-4.png)
+
