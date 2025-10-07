@@ -49,7 +49,7 @@ Your task is to associate the corresponding parts of the source input file to cl
 The conceptual map is shown in [Appendix A](#Appendix-A---Conceptual-Map). 
 
 If you need some extra hints, you can find the actual mappings of particular elements of the source input schema, to the classes shown in the conceptual map. 
-These mappings are described in Appendix B.  
+These mappings are described in [Appendix B](#Appendix-B---Source-Data-Elements-Mappings).  
 
 Below you can find details and instructions for creating a single mapping (i.e. the domain of a mapping, and a link). 
 You can adopt those mappings and continue with the rest of them accordingly. 
@@ -162,7 +162,7 @@ To see your transformed data visually, do the following:
 
 ![map.jpg](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/map.jpg)
 
-### Appendix B - Source Data Elements Mappigns
+### Appendix B - Source Data Elements Mappings
 
 | Element (source data) | Target Class |
 |---|---|
