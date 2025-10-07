@@ -91,7 +91,7 @@ In the end the first link of the mapping should look like the following
 
 ![3m-4.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-4.png)
 
-### Step4. Definition of URI generators\
+### Step4. Definition of URI generators
 
 In this step we will demonstrate how URIs are created.
 We will demonstrate how to do it for instances of the class 'E22_Human-Made_Object' (it is the domain of the first mapping). 
@@ -116,3 +116,22 @@ What we did is that we asked for each painting element from the source data, to 
 * the value of each painting collected from the element `id`
 
 Eventually, this will create URIs of the form http://www.example.com/resource/painting/p-1
+
+### Step5. Define label generators
+
+In this step, we will create the label generators. 
+We will demonstrate how we will generate a label for the instances of the class 'E22_Human-Made_Object`.
+To define them, do the following: 
+1. Click on Mapping #1 (or wherever mappings for class 'E22_Human-Made_Object` are) 
+2. Click on the Domain part 
+3. Under the ‘Target Entity’ (where the class 'E22_Human-Made_Object` is declared) click on ‘GENERATOR’ 
+4. Click on LABEL tab (found on the upper menu bar of the popup window) 
+5. Click on the '+' symbol to add a new label generator 
+6. Select ‘CompositeLabel’ 
+7. Under 'Argument #1: term1', select as type 'Constant', and in the text below (with name 'Value') type `Painting with title:`
+8. Under 'Argument #2: term2', select as type 'Xpath', and in the text field with name 'Select or add your own XPath' start typing `title`. You will notice that the system will provide you with all the valid XPATH expressions you could use for picking information from the source data. Select the following: `title/text()`. Leave the 'Argument #3' empty (it is an optional argument that is used for declaring the language tag of the label).
+
+![3m-6.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-6.png)
+
+Click 'Save Label Generator' and close the popup window with the generators. This label generator, will add as label for all the instances of the class 'E22_Human-Made_Object',
+the textual contents of the corresponding element with name title. So practically, the instance with URI http://www.example.com/resource/painting/p-1 will have as rdfs:label `Painting with title: Self-Portrait as a Painter`.  
