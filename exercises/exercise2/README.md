@@ -35,9 +35,9 @@ to the classes shown in the conceptual map. These mappings are described in [App
 
 **namespaces used**
 
-- `crm: http://www.cidoc-crm.org/cidoc-crm/`
-- `crmarch: http://www.ics.forth.gr/isl/CRMarchaeo/`
-- `crmsci: http://www.cidoc-crm.org/extensions/crmsci/`
+- crm: `http://www.cidoc-crm.org/cidoc-crm/`
+- crmarch: `http://www.ics.forth.gr/isl/CRMarchaeo/`
+- crmsci: `http://www.cidoc-crm.org/extensions/crmsci/`
 
 
 ### Appendix B - Source Data Elements Mappings
