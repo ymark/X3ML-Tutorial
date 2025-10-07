@@ -108,3 +108,11 @@ The generator should like the following
 
 ![3m-5.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-5.png)
 
+Click 'Save Instance Generator & Namespace'. 
+What we did is that we asked for each painting element from the source data, to create an instance of the class 'E22_Human-Made_Object', and the URI of that instance should be compsed of three parts:
+
+* the prefix: `http://www.example.com/resource`
+* a constant value: `painting`
+* the value of each painting collected from the element `id`
+
+Eventually, this will create URIs of the form http://www.example.com/resource/painting/p-1
