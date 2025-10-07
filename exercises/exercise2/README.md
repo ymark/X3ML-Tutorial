@@ -53,6 +53,7 @@ to the classes shown in the conceptual map. These mappings are described in [App
 |`Excavation/ExcavationSite/Coordinates`|`rdfs:Literal`|
 |`Excavation/StartDate`|`crm:E52_Time-span`|
 |`Excavation/EndDate`|`crm:E52_Time-span`|
+|`Excavation/CarriedOutBy`|`crm:E21_Person`|
 |`Excavation/CarriedOutBy/ActorID`|`crm:E42_Identifier`|
 |`Excavation/CarriedOutBy/Name`|`crm:E41_Appelation`|
 |`Excavation/CarriedOutBy/Role`|`crm:E55_Type`|
