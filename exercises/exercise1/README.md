@@ -30,7 +30,7 @@ Create a new schema mapping project by including the provided XML datasets as so
 3. Upload the provided XML datasets as source data
 4. Select CIDOC CRM (v7.1.1) as a target schema
 5. Use the basic generator policy (we will deal with more sophisticated generators later)
-6. Click Finish (below you can see a summary of the information that are needed for creating the project in 3M Editor- you should have something similar)
+6. Click Finish (below you can see a summary of the information that is needed for creating the project in 3M Editor- you should have something similar)
 
 ![3m-2.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-2.png)
 
@@ -39,49 +39,49 @@ Create a new schema mapping project by including the provided XML datasets as so
 After creating your schema mapping project, you can start defining your schema mappings. 
 To do so, you have to find and open the schema mapping project you created earlier. 
 Find it and click on Open (*hint: you can search for it using the project name you provided during the previous step*).
-After opening the project you will be notified about the data resources of your project 
-(i.e. source input files and target schema files). Unless you want to update them (there is not need to do so if you followed accurately the previous step) 
-click on SAVE & CLOSE button found at the end of the page.
+After opening the project, you will be notified about the data resources of your project 
+(i.e. source input files and target schema files). Unless you want to update them (there is no need to do so if you followed precisely the previous step) 
+click on the 'SAVE & CLOSE' button found at the end of the page.
 
 To facilitate you with the schema mappings, you are given the conceptual model that you should adopt. 
-It comprises of classes and properties from the three different target schemata you selected in the previous step. 
-Your task is to associate the corresponding parts of the source input file to classes and properties of the target schemata. 
+It comprises classes and properties from the three different target schemata you selected in the previous step. 
+Your task is to associate the corresponding parts of the source input file with classes and properties of the target schemata. 
 The conceptual map is shown in [Appendix A](#Appendix-A---Conceptual-Map). 
 
-If you need some extra hints, you can find the actual mappings of particular elements of the source input schema, to the classes shown in the conceptual map. 
+If you need some extra hints, you can find the actual mappings of particular elements of the source input schema to the classes shown in the conceptual map. 
 These mappings are described in [Appendix B](#Appendix-B---Source-Data-Elements-Mappings).  
 
-Below you can find details and instructions for creating a single mapping (i.e. the domain of a mapping, and a link). 
+Below you can find details and instructions for creating a single mapping (i.e. the domain of a mapping and a link). 
 You can adopt those mappings and continue with the rest of them accordingly. 
 
 ### Step3.1. Define the domain of a schema mapping
 
 Here we will demonstrate how to initiate schema mappings by creating a mapping and adding its domain part. 
-The domain is describes how a key entity is mapped between the source schema and the target ontologies and is used as an achor for connecting all the mappings that will be described in the links subsequently.
-In this example, we will describe how different paintings (element `painting` in the source data will be mapped as instances of the class `````` from CIDOC CRM.
+The domain describes how a key entity is mapped between the source schema and the target ontologies and is used as an anchor for connecting all the mappings that will be described in the links subsequently.
+In this example, we will describe how different paintings (element `painting` in the source data will be mapped as instances of the class `E22_Human-Made_Object` from CIDOC CRM.
 You have to do the following: 
 
 1. Select the first mapping (Mapping #1)
 2. Select the Domain
-3. In the text field with name 'Source Node' start typing the element name 'painting'. You will notice that the source analyze will propose the actual XPATH expression 
+3. In the text field with the name 'Source Node', start typing the element name 'painting'. You will notice that the source analyze will propose the actual XPATH expression 
 of the corresponding element from the source schemata (i.e. ```/root/painting```)
-4. In the text field with name 'Target Entity' start typing the name of the target class (i.e. ``````). The system will propose the classes that were found from 
+4. In the text field with name 'Target Entity', start typing the name of the target class (i.e. ``````). The system will propose the classes that were found from 
 the target schemata as you type. 
-In the end, the domain part of your first mapping should like the following image.
+In the end, the domain part of your first mapping should look like the following image.
 
 ![3m-3.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-3.png)
 
 ### Step3.2. Define the link of the schema mapping
 
-Here we will demonstrate the definition of a first link; more specifically, we will show visually how to specify that
-`title` elements from the source data, will be mapped as instances of the
+Here, we will demonstrate the definition of a first link; more specifically, we will show visually how to specify that
+`title` elements from the source data will be mapped as instances of the
 class ```E35_Title``` from CIDOC CRM. 
 Since we also want to associate this instance with its corresponding painting (which is already defined in the domain part),
 we have to specify how these two instances are connected.
 According to the conceptual map (that is given in [Appendix A](#Appendix-A---Conceptual-Map), these instances are connected using the property ```P102_has_title``` from CIDOC CRM.
 To define the mapping for this link, do the following: 
-1. Click on ‘Add New Link’ button
-2. Click on ‘Source Relation’ found under Link #1 (of mapping #1) 
+1. Click on 'Add New Link' button
+2. Click on 'Source Relation' found under Link #1 (of mapping #1) 
 3. In the text field with name ‘Source Relation’ start typing the name of the element we want to map (i.e. `title`). You will notice that the source analyzer already provide the actual XPATH of those elements from the source data, as you type. 
 4. Make sure that the desired element name (i.e. `title`), appears both under ‘Source Relation’ and ‘Source Node’ 
 5. In the text field with name ‘Target Relation’ start typing the name of the relation we want to use from the target ontologies (i.e. `P102_has_title`) 
@@ -124,22 +124,22 @@ We will demonstrate how we will generate a label for the instances of the class 
 To define them, do the following: 
 1. Click on Mapping #1 (or wherever mappings for class 'E22_Human-Made_Object` are) 
 2. Click on the Domain part 
-3. Under the ‘Target Entity’ (where the class 'E22_Human-Made_Object` is declared) click on ‘GENERATOR’ 
-4. Click on LABEL tab (found on the upper menu bar of the popup window) 
+3. Under the ‘Target Entity’ (where the class 'E22_Human-Made_Object` is declared), click on ‘GENERATOR’ 
+4. Click on the LABEL tab (found on the upper menu bar of the pop-up window) 
 5. Click on the '+' symbol to add a new label generator 
 6. Select ‘CompositeLabel’ 
 7. Under 'Argument #1: term1', select as type 'Constant', and in the text below (with name 'Value') type `Painting with title:`
-8. Under 'Argument #2: term2', select as type 'Xpath', and in the text field with name 'Select or add your own XPath' start typing `title`. You will notice that the system will provide you with all the valid XPATH expressions you could use for picking information from the source data. Select the following: `title/text()`. Leave the 'Argument #3' empty (it is an optional argument that is used for declaring the language tag of the label).
+8. Under 'Argument #2: term2', select as type 'Xpath', and in the text field with name 'Select or add your own XPath', start typing `title`. You will notice that the system will provide you with all the valid XPATH expressions you could use for picking information from the source data. Select the following: `title/text()`. Leave the 'Argument #3' empty (it is an optional argument that is used for declaring the language tag of the label).
 
 ![3m-6.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-6.png)
 
-Click 'Save Label Generator' and close the popup window with the generators. This label generator, will add as label for all the instances of the class 'E22_Human-Made_Object',
-the textual contents of the corresponding element with name title. So practically, the instance with URI http://www.example.com/resource/painting/p-1 will have as rdfs:label `Painting with title: Self-Portrait as a Painter`.  
+Click 'Save Label Generator' and close the pop-up window with the generators. This label generator will add a label for all the instances of the class 'E22_Human-Made_Object',
+the textual contents of the corresponding element with name title. So practically, the instance with URI `http://www.example.com/resource/painting/p-1` will have as `rdfs:label` `Painting with title: Self-Portrait as a Painter`.  
 
 ### Step6. Transform Data
 
 While defining your URI and label generators, you can also transform the provided source data and see the results in different serializations. 
-To do that you have to click the button 'Produce RDF', found at the bottom of your project editor. 
+To do that, you have to click the button 'Produce RDF', found at the bottom of your project editor. 
 This will transform your data according to your schema mappings and the generators that are defined so far. 
 You can also change the output format by selecting alternative serializations (i.e. Turtle, N-Triple, TriG). 
 
