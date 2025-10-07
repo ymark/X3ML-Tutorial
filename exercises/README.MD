@@ -27,5 +27,5 @@ Before starting, please ensure you have:
 
 ## 📂 Repository Structure
 
-- Exercise 1 (paintings collection)
-- Exercise 2 (archaeological excavations)
+- [Exercise 1 (paintings collection)](https://github.com/ymark/X3ML-Tutorial/tree/main/exercises/exercise1)
+- [Exercise 2 (archaeological excavations)](https://github.com/ymark/X3ML-Tutorial/tree/main/exercises/exercise2)
