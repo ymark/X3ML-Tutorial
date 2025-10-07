@@ -157,3 +157,7 @@ To see your transformed data visually, do the following:
 5. See the transformed data and browse accordingly 
 
 ![3m-8.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-8.png)
+
+### Appendix A - Conceptual Map
+
+![map.jpg](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/map.jpg)
