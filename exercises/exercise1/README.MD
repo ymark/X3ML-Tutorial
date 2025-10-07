@@ -19,6 +19,7 @@ The provided sample dataset consists of two files:
 ### Step1. Use 3M Editor
 
 1. Visit 3M Editor (https://demos.isl.ics.forth.gr/3m/) and log in (if you already have an account) or register (if you do not have an account)
+![3m-1](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-1.png)
 
 ### Step2. Create a new schema mapping project
 
