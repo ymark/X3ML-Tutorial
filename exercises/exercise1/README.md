@@ -122,9 +122,9 @@ Eventually, this will create URIs of the form `http://www.example.com/resource/p
 In this step, we will create the label generators. 
 We will demonstrate how we will generate a label for the instances of the class 'E22_Human-Made_Object`.
 To define them, do the following: 
-1. Click on Mapping #1 (or wherever mappings for class 'E22_Human-Made_Object` are) 
+1. Click on Mapping #1 (or wherever mappings for class `E22_Human-Made_Object` are) 
 2. Click on the Domain part 
-3. Under the ‘Target Entity’ (where the class 'E22_Human-Made_Object` is declared), click on ‘GENERATOR’ 
+3. Under the ‘Target Entity’ (where the class `E22_Human-Made_Object` is declared), click on ‘GENERATOR’ 
 4. Click on the LABEL tab (found on the upper menu bar of the pop-up window) 
 5. Click on the '+' symbol to add a new label generator 
 6. Select ‘CompositeLabel’ 
@@ -133,7 +133,7 @@ To define them, do the following:
 
 ![3m-6.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-6.png)
 
-Click 'Save Label Generator' and close the pop-up window with the generators. This label generator will add a label for all the instances of the class 'E22_Human-Made_Object',
+Click 'Save Label Generator' and close the pop-up window with the generators. This label generator will add a label for all the instances of the class `E22_Human-Made_Object`,
 the textual contents of the corresponding element with name title. So practically, the instance with URI `http://www.example.com/resource/painting/p-1` will have as `rdfs:label` `Painting with title: Self-Portrait as a Painter`.  
 
 ### Step6. Transform Data
@@ -145,13 +145,13 @@ You can also change the output format by selecting alternative serializations (i
 
 ![3m-7.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-7.png)
 
-### Step7. Visualize transformed data 
+### Step7. Visualise transformed data 
 
 You can also see the transformed data visually, using RDF Visualizer, a tool that is embedded in 3M Editor, and provides features for exploring RDF datasets. 
 To see your transformed data visually, do the following:  
 
 1. Click on the button 'View in the RDF Visualizer', found at the bottom of your project screen 
-2. Pick a class of interest (select the instances of which class would you like to visualize).  Select 'E22_Human-Made_Object` (the actual URI is `http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object`) 
+2. Pick a class of interest (select the instances of which class you would like to visualise).  Select `E22_Human-Made_Object` (the actual URI is `http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object`) 
 3. Select one of the instances that appear (all of them are instances of the selected class)
 4. Click 'Open in RDF Visualizer'
 5. See the transformed data and browse accordingly 
