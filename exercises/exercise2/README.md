@@ -1,4 +1,4 @@
-# 🎨 Exercise 2: Creating Mappings for Archaeological Excavations
+# ⛏️ Exercise 2: Creating Mappings for Archaeological Excavations
 
 In this exercise, you will learn how to design **schema mappings** about archaeological excavations using CIDOC CRM and its extensions.
 The goal is to understand the basic concepts behind schema mapping and to become familiar with the **3M mapping editor** and the **X3ML language**.
