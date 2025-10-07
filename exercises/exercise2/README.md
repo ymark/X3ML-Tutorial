@@ -44,4 +44,25 @@ to the classes shown in the conceptual map. These mappings are described in [App
 
 | Element (source data) | Target Class |
 |---|---|
-|`test`|`test`|
+|`Excavation`|`crmsci:A9_Archaeological_Excavation`|
+|`Excavation/ExcavationID`|`crm:E42_Identifier`|
+|`Excavation/ExcavationName`|`crm:E41_Appelation`|
+|`Excavation/ExcavationSite`|`crm:E27_Site`|
+|`Excavation/ExcavationSite/PlaceID`|`crm:E42_Identifier`|
+|`Excavation/ExcavationSite/Name`|`crm:E41_Appelation`|
+|`Excavation/ExcavationSite/Coordinates`|`rdfs:Literal`|
+|`Excavation/StartDate`|`crm:E52_Time-span`|
+|`Excavation/EndDate`|`crm:E52_Time-span`|
+|`Excavation/CarriedOutBy/ActorID`|`crm:E42_Identifier`|
+|`Excavation/CarriedOutBy/Name`|`crm:E41_Appelation`|
+|`Excavation/CarriedOutBy/Role`|`crm:E55_Type`|
+|`Excavation/ExcavatedObject`|`crm:E18_Physical_Thing`|
+|`Excavation/ExcavatedObject/ObjectID`|`crm:E42_Identifier`|
+|`Excavation/ExcavatedObject/Name`|`crm:E41_Appelation`|
+|`Excavation/ExcavatedObject/Type`|`crm:E55_Type`|
+|`Excavation/ExcavatedObject/CurrentLocation`|`crm:E53_Place`|
+|`Excavation/ExcavatedReport`|`crm:E31_Document`|
+|`Excavation/ExcavatedReport/DocumentID`|`crm:E42_Identifier`|
+|`Excavation/ExcavatedReport/Title`|`crm:E35_Title`|
+|`Excavation/ExcavatedReport/Author`|`rdfs:Literal`|
+|`Excavation/ExcavatedReport/Year`|`rdfs:Literal`|
