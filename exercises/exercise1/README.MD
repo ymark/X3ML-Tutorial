@@ -53,3 +53,20 @@ These mappings are described in Appendix B.
 
 Below you can find details and instructions for creating a single mapping (i.e. the domain of a mapping, and a link). 
 You can adopt those mappings and continue with the rest of them accordingly. 
+
+### Step3.1. Define the domain of a schema mapping
+
+Here we will demonstrate how to initiate schema mappings by creating a mapping and adding its domain part. 
+The domain is describes how a key entity is mapped between the source schema and the target ontologies and is used as an achor for connecting all the mappings that will be described in the links subsequently.
+In this example, we will describe how different paintings (element `painting` in the source data will be mapped as instances of the class ```E22_Human-Made_Object``` from CIDOC CRM.
+You have to do the following: 
+
+1. Select the first mapping (Mapping #1)
+2. Select the Domain
+3. In the text field with name 'Source Node' start typing the element name 'painting'. You will notice that the source analyze will propose the actual XPATH expression 
+of the corresponding element from the source schemata (i.e. ```/root/painting```)
+4. In the text field with name 'Target Entity' start typing the name of the target class (i.e. ```E22_Human-Made_Object```). The system will propose the classes that were found from 
+the target schemata as you type. 
+In the end, the domain part of your first mapping should like the following image.
+
+![3m-3.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-3.png)
