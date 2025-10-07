@@ -91,3 +91,20 @@ In the end the first link of the mapping should look like the following
 
 ![3m-4.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-4.png)
 
+### Step4. Definition of URI generators\
+
+In this step we will demonstrate how URIs are created.
+We will demonstrate how to do it for instances of the class 'E22_Human-Made_Object' (it is the domain of the first mapping). 
+To do that follow the steps below: 
+
+1. Click on Mapping #1 (or wherever mappings for class 'E22_Human-Made_Object' are)
+2. Click on the Domain
+3. Under the 'Target Entity' (where the class 'E22_Human-Made_Object' is declared), click on 'GENERATOR'.
+4. A pop-up menu will appear. Select 'LocalTermUri' from the available generators.
+5. Under 'Argument #1: hierarchy' select as type 'Constant', and in the text field below (with name 'Value') type `painting`
+6. Under 'Argument #2: term' select as type 'Xpath', and in the text field below (with name 'Select or add your own XPath') start typing `id`. You will notice that the system will provide you with all the valid XPATH expressions you could use for picking information from the source data. Select the following: `id/text()`
+7. If the namespace prefix is empty, define one.
+The generator should like the following
+
+![3m-5.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-5.png)
+
