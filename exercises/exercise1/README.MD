@@ -33,3 +33,23 @@ Create a new schema mapping project by including the provided XML datasets as so
 6. Click Finish (below you can see a summary of the information that are needed for creating the project in 3M Editor- you should have something similar)
 
 ![3m-2.png](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/images/3m-2.png)
+
+### Step3. Define schema mappings
+
+After creating your schema mapping project, you can start defining your schema mappings. 
+To do so, you have to find and open the schema mapping project you created earlier. 
+Find it and click on Open (*hint: you can search for it using the project name you provided during the previous step*).
+After opening the project you will be notified about the data resources of your project 
+(i.e. source input files and target schema files). Unless you want to update them (there is not need to do so if you followed accurately the previous step) 
+click on SAVE & CLOSE button found at the end of the page.
+
+To facilitate you with the schema mappings, you are given the conceptual model that you should adopt. 
+It comprises of classes and properties from the three different target schemata you selected in the previous step. 
+Your task is to associate the corresponding parts of the source input file to classes and properties of the target schemata. 
+The conceptual map is shown in Appendix A. 
+
+If you need some extra hints, you can find the actual mappings of particular elements of the source input schema, to the classes shown in the conceptual map. 
+These mappings are described in Appendix B.  
+
+Below you can find details and instructions for creating a single mapping (i.e. the domain of a mapping, and a link). 
+You can adopt those mappings and continue with the rest of them accordingly. 
