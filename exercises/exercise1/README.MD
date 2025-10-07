@@ -9,8 +9,8 @@ The goal is to understand the basic concepts behind schema mapping and to become
 
 The provided sample dataset consists of two files:
 
-- paintings.xml: contains information about paintings 
-- painters.xml: contains information about painters
+- [paintings.xml](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/x3ml/source%20files/paintings.xml): contains information about paintings 
+- [painters.xml](https://github.com/ymark/X3ML-Tutorial/blob/main/exercises/exercise1/x3ml/source%20files/painters.xml): contains information about painters
 
 --- 
 
