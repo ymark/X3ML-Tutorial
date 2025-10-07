@@ -1,4 +1,4 @@
-# Hands-on exercises
+# 🧭 Hands-on exercises
 
 This repository accompanies the tutorial on X3ML framework, presented at [IJCKG 2025](https://ijckg2025.github.io/).
 It contains a set of hands-on exercises designed to guide participants through the complete workflow of **schema mapping definition, data transformation, and RDF generation**
