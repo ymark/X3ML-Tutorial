@@ -1,0 +1,22 @@
+<root>
+	<painter>
+		<id>a-1</id>
+		<ulan>500115588</ulan>
+		<name>Vincent Van Gogh</name>
+		<birth_date>1853-03-30</birth_date>
+		<birth_place>Netherlands</birth_place>
+		<death_date>1890-07-29</death_date>
+		<death_place>France</death_place>
+		<movement>Post-Impressionism</movement>
+	</painter>
+		<painter>
+		<id>a-2</id>
+		<ulan>500115194</ulan>
+		<name>Edgar Degas</name>
+		<birth_date>1834-07-19</birth_date>
+		<birth_place>France</birth_place>
+		<death_date>1917-09-27</death_date>
+		<death_place>France</death_place>
+		<movement>Impressionism</movement>
+	</painter>
+</root>

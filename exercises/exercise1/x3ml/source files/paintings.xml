@@ -1,0 +1,23 @@
+<root>
+	<painting>
+		<id>p-1</id>
+		<painter_id>a-1</painter_id>
+		<title>Self-Portrait as a Painter</title>
+		<creation_date>1889</creation_date>
+		<filename>e170fcb6-91fc-4b16-9f36-4860111fa1d9.jpg</filename>
+	</painting>
+	<painting>
+		<id>p-2</id>
+		<painter_id>a-1</painter_id>
+		<title>The Starry Night</title>
+		<creation_date>1889</creation_date>
+		<filename>65f3d256-5dbf-4e6c-b691-69c06d504f3a.jpg</filename>
+	</painting>
+	<painting>
+		<id>p-3</id>
+		<painter_id>a-2</painter_id>
+		<title>The Ballet Class</title>
+		<creation_date>1874</creation_date>
+		<filename>7e340ef0-2316-4a47-8d42-6a464eea8434.jpg</filename>
+	</painting>
+</root>
