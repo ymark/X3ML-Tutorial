@@ -46,7 +46,7 @@ click on SAVE & CLOSE button found at the end of the page.
 To facilitate you with the schema mappings, you are given the conceptual model that you should adopt. 
 It comprises of classes and properties from the three different target schemata you selected in the previous step. 
 Your task is to associate the corresponding parts of the source input file to classes and properties of the target schemata. 
-The conceptual map is shown in Appendix A. 
+The conceptual map is shown in [Appendix A](Appendix-A---Conceptual-Map). 
 
 If you need some extra hints, you can find the actual mappings of particular elements of the source input schema, to the classes shown in the conceptual map. 
 These mappings are described in Appendix B.  
@@ -78,7 +78,7 @@ Here we will demonstrate the definition of a first link; more specifically, we w
 class ```E35_Title``` from CIDOC CRM. 
 Since we also want to associate this instance with its corresponding painting (which is already defined in the domain part),
 we have to specify how these two instances are connected.
-According to the conceptual map (that is given in Appendix A), these instances are connected using the property ```P102_has_title``` from CIDOC CRM.
+According to the conceptual map (that is given in [Appendix A](Appendix-A---Conceptual-Map), these instances are connected using the property ```P102_has_title``` from CIDOC CRM.
 To define the mapping for this link, do the following: 
 1. Click on ‘Add New Link’ button
 2. Click on ‘Source Relation’ found under Link #1 (of mapping #1) 
