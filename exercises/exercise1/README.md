@@ -58,14 +58,14 @@ You can adopt those mappings and continue with the rest of them accordingly.
 
 Here we will demonstrate how to initiate schema mappings by creating a mapping and adding its domain part. 
 The domain is describes how a key entity is mapped between the source schema and the target ontologies and is used as an achor for connecting all the mappings that will be described in the links subsequently.
-In this example, we will describe how different paintings (element `painting` in the source data will be mapped as instances of the class ```E22_Human-Made_Object``` from CIDOC CRM.
+In this example, we will describe how different paintings (element `painting` in the source data will be mapped as instances of the class `````` from CIDOC CRM.
 You have to do the following: 
 
 1. Select the first mapping (Mapping #1)
 2. Select the Domain
 3. In the text field with name 'Source Node' start typing the element name 'painting'. You will notice that the source analyze will propose the actual XPATH expression 
 of the corresponding element from the source schemata (i.e. ```/root/painting```)
-4. In the text field with name 'Target Entity' start typing the name of the target class (i.e. ```E22_Human-Made_Object```). The system will propose the classes that were found from 
+4. In the text field with name 'Target Entity' start typing the name of the target class (i.e. ``````). The system will propose the classes that were found from 
 the target schemata as you type. 
 In the end, the domain part of your first mapping should like the following image.
 
@@ -94,12 +94,12 @@ In the end the first link of the mapping should look like the following
 ### Step4. Definition of URI generators
 
 In this step we will demonstrate how URIs are created.
-We will demonstrate how to do it for instances of the class 'E22_Human-Made_Object' (it is the domain of the first mapping). 
+We will demonstrate how to do it for instances of the class `E22_Human-Made_Object` (it is the domain of the first mapping). 
 To do that follow the steps below: 
 
-1. Click on Mapping #1 (or wherever mappings for class 'E22_Human-Made_Object' are)
+1. Click on Mapping #1 (or wherever mappings for class `E22_Human-Made_Object` are)
 2. Click on the Domain
-3. Under the 'Target Entity' (where the class 'E22_Human-Made_Object' is declared), click on 'GENERATOR'.
+3. Under the 'Target Entity' (where the class `E22_Human-Made_Object` is declared), click on 'GENERATOR'.
 4. A pop-up menu will appear. Select 'LocalTermUri' from the available generators.
 5. Under 'Argument #1: hierarchy' select as type 'Constant', and in the text field below (with name 'Value') type `painting`
 6. Under 'Argument #2: term' select as type 'Xpath', and in the text field below (with name 'Select or add your own XPath') start typing `id`. You will notice that the system will provide you with all the valid XPATH expressions you could use for picking information from the source data. Select the following: `id/text()`
@@ -115,7 +115,7 @@ What we did is that we asked for each painting element from the source data, to 
 * a constant value: `painting`
 * the value of each painting collected from the element `id`
 
-Eventually, this will create URIs of the form http://www.example.com/resource/painting/p-1
+Eventually, this will create URIs of the form `http://www.example.com/resource/painting/p-1`
 
 ### Step5. Define label generators
 
@@ -166,7 +166,7 @@ To see your transformed data visually, do the following:
 
 | Element (source data) | Target Class |
 |---|---|
-|`/root/painting`|`crm:E22_Human-Made_Object`|
+|`/root/painting`|`crm:`|
 |`/root/painting/title`|`crm:E35_Title`|
 |`/root/painting/painter_id`|`crm:E21_Person`|
 |`/root/painting/creation_date`|`crm:E52_Time-Span`|
